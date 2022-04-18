@@ -17,4 +17,4 @@ class TingoTangoPrueba(unittest.TestCase):
         self.resultadoActual = self.TT.textoTingoTango(self.numero)
 
         # Assert
-        self.assertEqual(self.resultadoEsperado, self.resultadoActual1)
+        self.assertEqual(self.resultadoEsperado, self.resultadoActual)
